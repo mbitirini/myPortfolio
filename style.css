@@ -1,0 +1,221 @@
+/* Scale according screen size */
+html, body, #wrapper {
+    width: 100%;
+    min-height: 100%;
+}
+
+
+
+/* Main body styles */
+body {
+    font: 100% "Work Sans", Helvetica, sans-serif !important;
+    color: #616161;
+    background-color: #fafafa;
+    line-height: 1.5; 
+    position: absolute;
+   
+
+}
+
+p {
+    font-weight: lighter !important;
+   
+}
+
+b {
+    font-weight: 700 !important;
+}
+
+h1 {
+    font-weight: lighter !important;
+}
+
+h2 {
+    font-weight: lighter !important;
+}
+
+h5 {
+    font-size: 15px !important;
+    font-weight: 800 !important;
+}
+
+h6 {
+    color: blue !important;
+    font-weight: bold !important;
+    font-size: large !important;
+
+}
+
+
+
+/* For fading in text */
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Closing fading in */
+
+/* Main body styles end */
+
+/************************/
+
+/* Intro section styles */
+
+
+.custom-control-label {
+  margin-top: 15px;
+  margin-right: 10px;
+  font-size: 17.5px;
+  font-weight: lighter;
+}
+
+.jumbotron {
+    background-color:transparent !important;
+}
+
+
+
+
+:root {
+    --mainColor: #ff9800;
+  }
+
+
+a {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .4s;
+  }
+  
+  a:hover {
+    background-size: 4px 50px;
+  }
+
+
+  
+
+/* Intro section style ends */
+
+/****************************/
+
+/* Background section begins */
+
+ 
+
+
+/* Fading text starts */
+
+    #background {
+      /*  margin-top: 10px; */
+        animation: fadein 4s;
+        -moz-animation: fadein 4s; /* Firefox */
+        -webkit-animation: fadein 4s; /* Safari and Chrome */
+        -o-animation: fadein 4s; /* Opera */
+    }
+
+
+
+    /* Fading text ends */
+
+/* Background section ends */
+
+/****************************/
+
+/* Skills section begins */
+
+#skills {
+    /* Fading in */
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    
+}
+
+ul {
+    text-align: left !important;
+    font-size: smaller;
+    font-weight: lighter;
+    line-height:0.2 !important;
+}
+
+#heading {
+    font-weight: 800 !important;
+    font-size: 15px;
+}
+
+
+
+
+#projects {
+    /* Fading in */
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    
+}
+ 
+#projectTitle{
+    font-weight: bolder !important;
+}
+
+#footer {
+     /* Fading in */
+     animation: fadein 4s;
+     -moz-animation: fadein 4s; /* Firefox */
+     -webkit-animation: fadein 4s; /* Safari and Chrome */
+     -o-animation: fadein 4s; /* Opera */
+
+}
+
+.footer.container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .footer.container p{
+    margin-bottom: 0;
+  }
+
+  #design {
+      color: black !important;
+      font-weight: lighter !important;
+  }
