@@ -9,10 +9,11 @@ html, body, #wrapper {
 /* Main body styles */
 body {
     font: 100% "Work Sans", Helvetica, sans-serif !important;
-    color: #616161;
+    color: black;
     background-color: #fafafa;
     line-height: 1.5; 
     position: absolute;
+
    
 
 }
@@ -28,6 +29,7 @@ b {
 
 h1 {
     font-weight: lighter !important;
+    font-size: 40px !important;
 }
 
 h2 {
@@ -100,6 +102,8 @@ h6 {
 
 .jumbotron {
     background-color:transparent !important;
+   
+
 }
 
 
@@ -166,7 +170,7 @@ a {
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
     -o-animation: fadein 4s; /* Opera */
-    
+  
 }
 
 ul {
